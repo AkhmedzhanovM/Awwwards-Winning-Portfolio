@@ -29,13 +29,8 @@ export const navSlide = {
   },
 };
 
-export const navUp = {
-  enter: {
-    y: 0,
-    transition: {duration: 0.8, delay: 1, ease: [0.76, 0, 0.24, 1]},
-  },
-  exit: {
-    y: "50vh",
-    transition: {duration: 0.8, delay: 1, ease: [0.76, 0, 0.24, 1]},
+export const button = {
+  up: {
+    y: "-50px",
   },
 };

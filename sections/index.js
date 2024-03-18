@@ -3,7 +3,6 @@ import Bio from './Bio';
 import Portfolio from './Portfolio';
 import Projects from './Projects';
 import CTA from './CTA';
-import Footer from './Footer';
 
 export {
     Hero,
@@ -11,5 +10,4 @@ export {
     Portfolio,
     Projects,
     CTA,
-    Footer,
 };

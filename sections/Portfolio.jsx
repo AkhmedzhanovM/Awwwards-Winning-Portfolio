@@ -14,7 +14,6 @@ const Portfolio = () => {
     ["300%", "-100%"]
   );
   const parallaxText = useTransform(scrollYProgress, [0, 1], ["300%", "-100%"]);
-  const zoomOut = useTransform(scrollYProgress, [0, 1], [2, 1]);
 
   return (
     <div className="md:h-[250vh] sm:h-[200vh] w-[100vw] flex flex-col justify-center items-center">
@@ -37,7 +36,7 @@ const Portfolio = () => {
             <div className="text-[#e9dfce] md:text-[100px] sm:text-[50px] font-grandslang">
               {projects.h1}
             </div>
-            <div className="text-[#e9e9e9] md:text-[18px] sm:text-[14px] font-degular">
+            <div className="text-[#e9e9e9] md:text-[18px] sm:text-[14px] font-degular leading-[1px]">
               {projects.h2}
             </div>
           </motion.div>

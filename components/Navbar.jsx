@@ -1,26 +1,30 @@
 "use client";
 
 import Image from "next/image";
-import { navbar, links } from "../constants";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { navSlide, navUp } from "../utils/motion";
+import { navSlide } from "../utils/motion";
 import menu from "../public/images/menu.svg";
-import close from "../public/images/close.svg";
+import close from "../public/images/close.svg"
+import Magnetic from "./Magnetic";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <div className="w-full fixed flex justify-between items-center md:px-20 sm:px-8 pt-6 z-[20]">
-      <a className="text-[#e9dfce] text-[20px] cursor-pointer">Ахмеджанов</a>
-      <Image
-        src={toggle ? close : menu}
-        onClick={() => setToggle((prev) => !prev)}
-        width={40}
-        height={40}
-        className="z-[20] cursor-pointer"
-      />
+      <Magnetic>
+        <a className="text-[#e9dfce] text-[20px] cursor-pointer">Ахмеджанов</a>
+      </Magnetic>
+      <Magnetic>
+        <Image
+          src={toggle ? close : menu}
+          onClick={() => setToggle((prev) => !prev)}
+          width={40}
+          height={40}
+          className="z-[20] flex cursor-pointer"
+        />
+      </Magnetic>
       <motion.div
         variants={navSlide}
         initial="closed"

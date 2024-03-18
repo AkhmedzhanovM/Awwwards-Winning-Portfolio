@@ -4,7 +4,8 @@ import Cursor from "@/components/Cursor";
 import Preloader from "@/components/Preloader";
 import Navbar from "@/components/Navbar";
 import InfiniteText from "@/components/InfiniteText";
-import { Hero, Bio, Portfolio, Projects, CTA, Footer } from "../sections";
+import Footer from "@/components/Footer";
+import { Hero, Bio, Portfolio, Projects, CTA } from "../sections";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 
