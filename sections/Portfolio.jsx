@@ -16,7 +16,7 @@ const Portfolio = () => {
   const parallaxText = useTransform(scrollYProgress, [0, 1], ["300%", "-100%"]);
 
   return (
-    <div className="md:h-[250vh] sm:h-[200vh] w-[100vw] flex flex-col justify-center items-center">
+    <div className="md:h-[300vh] sm:h-[200vh] w-[100vw] flex flex-col justify-center items-center">
       {projects.map((projects) => (
         <a
           key={projects.id}

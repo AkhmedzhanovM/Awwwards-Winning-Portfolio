@@ -22,15 +22,15 @@ const Footer = () => {
         ))}
       </div>
 
-      <div className="sm:my-2 md:mr-44">
+      <div className="sm:my-2 md:mr-28">
         <p className="text-white text-[10px] font-degular">
-          &#x00A9; Akhmedzhanov Mohammed 2024
+          &#x00A9; Ахмеджанов 2024
         </p>
       </div>
 
-      <div className="md:mr-16 sm:my-2">
+      <div className="md:mr-14 sm:my-2">
         <Magnetic>
-          <a className="text-white font-degular">RESUME</a>
+          <a href="/resume/cv.docx" download className="text-white font-degular">DOWNLOAD RESUME</a>
         </Magnetic>
       </div>
     </div>

@@ -3,11 +3,12 @@
 import Cursor from "@/components/Cursor";
 import Preloader from "@/components/Preloader";
 import Navbar from "@/components/Navbar";
-import InfiniteText from "@/components/InfiniteText";
 import Footer from "@/components/Footer";
-import { Hero, Bio, Portfolio, CTA } from "../sections";
+import Works from "./Works";
+import { CTA } from "@/sections";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
+import WorksList from "./WorksList";
 
 const page = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,10 +29,8 @@ const page = () => {
       </AnimatePresence>
       <Navbar />
       <Cursor />
-      <Hero />
-      <Bio />
-      <InfiniteText />
-      <Portfolio />
+      <Works />
+      <WorksList />
       <CTA />
       <Footer />
     </div>
