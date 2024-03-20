@@ -4,7 +4,7 @@ export const slideUp = {
   },
   animate: {
     y: "-100vh",
-    transition: {duration: 0.5},
+    transition: { duration: 0.5 },
   },
 };
 
@@ -14,18 +14,18 @@ export const up = {
   },
   animate: {
     y: "-4vh",
-    transition: { duration: 0.5, delay: 0.5, ease: [0.76, 0, 0.24, 1]},
+    transition: { duration: 0.5, delay: 0.5, ease: [0.76, 0, 0.24, 1] },
   },
 };
 
 export const navSlide = {
   open: {
     y: 0,
-    transition: {duration: 0.8, ease: [0.76, 0, 0.24, 1]},
+    transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] },
   },
   closed: {
     y: "-100vh",
-    transition: {duration: 0.8, ease: [0.76, 0, 0.24, 1]},
+    transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] },
   },
 };
 
@@ -45,12 +45,22 @@ export const scaleAnimation = {
     scale: 1,
     x: "-50%",
     y: "-50%",
-    transition: {duration: 0.4, ease: [0.76, 0, 0.24, 1]},
+    transition: { duration: 0.4, ease: [0.76, 0, 0.24, 1] },
   },
   closed: {
     scale: 0,
     x: "-50%",
     y: "-50%",
-    transition: {duration: 0.4, ease: [0.32, 0, 0.67, 0]},
+    transition: { duration: 0.4, ease: [0.32, 0, 0.67, 0] },
+  },
+};
+
+export const interaction1 = {
+  initial: {
+    x: 100,
+  },
+  enter: {
+    x: 0,
+    transition: { duration: 0.5, delay: 0.5, ease: [0.32, 0, 0.67, 0] },
   },
 };

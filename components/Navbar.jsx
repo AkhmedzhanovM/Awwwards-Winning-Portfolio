@@ -42,9 +42,12 @@ const Navbar = () => {
         >
           WORKS
         </Link>
-        <motion.a className="text-[#242527] md:text-[100px] sm:text-[50px] font-grandslangitalic my-10">
+        <Link 
+          href="/about"
+          className="text-[#242527] md:text-[100px] sm:text-[50px] font-grandslangitalic my-10"
+        >
           ABOUT
-        </motion.a>
+        </Link>
       </motion.div>
     </div>
   );

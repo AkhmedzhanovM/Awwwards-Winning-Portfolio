@@ -30,8 +30,9 @@ const Modal = ({modal}) => {
             return <div key={`modal_${index}`} className="modal">
               <Image
                 src={projects.imgUrl}
-                width={300}
+                width={500}
                 height={0}
+                className="rounded-[20px]"
                 alt="image"
               />
             </div>

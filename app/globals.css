@@ -69,8 +69,8 @@ path {
 }
 
 .modalContainer {
-  height: 350px;
-  width: 400px;
+  height: 550px;
+  width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,6 @@ path {
   height: 100%;
   width: 100%;
   position: absolute;
-  transition: top 0.5s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
 .modal {
@@ -95,7 +94,7 @@ path {
 }
 
 .modal img {
-  height: auto;
+  height: 300px;
 }
 
 @font-face {

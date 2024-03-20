@@ -5,9 +5,9 @@ import Preloader from "@/components/Preloader";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { CTA } from "@/sections";
-import { useEffect, useState } from "react";
+import {Interaction} from "@/app/about/index";
 import { AnimatePresence } from "framer-motion";
-import {Works, WorksList} from "@/app/works/index";
+import { useEffect, useState } from "react";
 
 const page = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,14 +22,13 @@ const page = () => {
   }, []);
 
   return (
-    <div className="bg-[#1e2125] overflow-hidden">
+    <div className="bg-[#1e2125] overflow-hidden relative">
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
       <Navbar />
       <Cursor />
-      <Works />
-      <WorksList />
+      <Interaction />
       <CTA />
       <Footer />
     </div>

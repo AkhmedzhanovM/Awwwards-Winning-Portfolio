@@ -53,15 +53,18 @@ export const works = [
     id: "work-1",
     h1: "Cure",
     h2: "Next.js - React.js - Tailwind CSS - Framer Motion",
+    path: "https://cure-bice.vercel.app/",
   },
   {
     id: "work-2",
     h1: "Metaversus",
     h2: "Next.js - React.js - Tailwind CSS - Framer Motion",
+    path: "https://akhmedzhanovm.github.io/metaversus/",
   },
   {
     id: "work-3",
     h1: "Personal",
     h2: "React.js - Tailwind CSS",
+    path: "https://akhmedzhanovm.github.io/personal/",
   },
 ];

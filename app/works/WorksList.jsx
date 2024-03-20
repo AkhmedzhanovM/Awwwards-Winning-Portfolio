@@ -12,7 +12,9 @@ const WorksList = () => {
       <div className="h-[220vh] w-[100vw]">
         {
           works.map((works, index) => {
-            return <Project key={index} index={index} h1={works.h1} h2={works.h2} setModal={setModal}/>
+            return <a href={works.path} target="_blank">
+              <Project key={index} index={index} h1={works.h1} h2={works.h2} setModal={setModal}/>
+            </a>
           })
         }
         
