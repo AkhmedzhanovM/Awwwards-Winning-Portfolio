@@ -2,7 +2,6 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { interaction1 } from "@/utils/motion";
 
 const Interaction = () => {
   const container = useRef(null);
@@ -22,7 +21,7 @@ const Interaction = () => {
     >
       <motion.h2
         style={{ x: textMove1 }}
-        className="md:text-[15px] sm:text-[10px] font-degular md:mr-[800px] sm:mr-[200px] top-20 relative sm:mb-4"
+        className="md:text-[15px] sm:text-[10px] font-degular md:mr-[800px] sm:mr-[200px] top-20 relative sm:mb-10"
       >
         * SPECIALIZING IN MOBILE APPS,
         <br />
@@ -30,12 +29,8 @@ const Interaction = () => {
       </motion.h2>
 
       <motion.h1
-        variants={interaction1}
-        initial="initial"
-        whileInView="enter"
-        viewport={{once: true}}
         style={{ x: textMove2 }}
-        className="md:text-[150px] sm:text-[55px] font-grandslang md:leading-[300px] sm:leading-[200px]"
+        className="md:text-[150px] sm:text-[55px] font-grandslang md:leading-[300px] sm:leading-[150px]"
       >
         INTERACTION
         <br />
@@ -44,14 +39,14 @@ const Interaction = () => {
 
       <motion.h2
         style={{ x: textMove3 }}
-        className="font-migraitalic md:text-[40px] sm:text-[20px] absolute md:mr-96 mt-40"
+        className="font-migraitalic md:text-[40px] sm:text-[20px] absolute md:mr-96 md:mt-40 sm:mt-32"
       >
         inspired by
       </motion.h2>
 
       <motion.h1
         style={{ x: textMove4 }}
-        className="md:text-[100px] sm:text-[50px] font-grandslangitalic absolute mt-80 md:ml-40 md:leading-[300px] sm:leading-[200px] md:mb-0 sm:mb-20"
+        className="md:text-[100px] sm:text-[50px] font-grandslangitalic absolute mt-80 md:ml-40 md:leading-[300px] sm:leading-[150px] md:mb-0 sm:mb-32"
       >
         developer
         <br />

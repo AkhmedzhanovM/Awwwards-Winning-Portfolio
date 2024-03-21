@@ -55,12 +55,14 @@ export const scaleAnimation = {
   },
 };
 
-export const interaction1 = {
+export const textUp = {
   initial: {
-    x: 100,
+    y: 100,
+    opacity: 0,
   },
   enter: {
-    x: 0,
-    transition: { duration: 0.5, delay: 0.5, ease: [0.32, 0, 0.67, 0] },
+    y: 0,
+    opacity: 1,
+    transition: { duration: 0.5, ease: [0.32, 0, 0.67, 0] },
   },
 };

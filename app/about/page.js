@@ -5,7 +5,7 @@ import Preloader from "@/components/Preloader";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { CTA } from "@/sections";
-import {Interaction} from "@/app/about/index";
+import {Interaction, Meet} from "@/app/about/index";
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -29,6 +29,7 @@ const page = () => {
       <Navbar />
       <Cursor />
       <Interaction />
+      <Meet />
       <CTA />
       <Footer />
     </div>
