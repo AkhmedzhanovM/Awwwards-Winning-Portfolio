@@ -35,7 +35,7 @@ const Preloader = () => {
       variants={slideUp}
       initial="initial"
       animate="animate"
-      className="bg-[#e9dfce] h-[100vh] w-[100vw] z-[101] fixed flex justify-center items-center"
+      className="bg-[#e9dfce] h-[100vh] w-[100vw] z-[1000] fixed flex justify-center items-center"
     >
       {dimension.height > 0 && (
         <>

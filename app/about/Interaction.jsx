@@ -21,7 +21,7 @@ const Interaction = () => {
     >
       <motion.h2
         style={{ x: textMove1 }}
-        className="md:text-[15px] sm:text-[10px] font-degular md:mr-[800px] sm:mr-[200px] top-20 relative sm:mb-10"
+        className="md:text-[15px] sm:text-[10px] font-degular md:mr-[800px] sm:mr-[200px] top-20 relative md:mb-0 sm:mb-10"
       >
         * SPECIALIZING IN MOBILE APPS,
         <br />
