@@ -1,3 +1,50 @@
+export const hero = [
+  {
+    id: "hero-1",
+    title: "FRONTEND DEVELOPER",
+    css: "font-degular relative md:top-32 sm:top-8",
+  },
+  {
+    id: "hero-2",
+    title: "CREATING",
+    css: "font-grandslang md:text-[100px] sm:text-[50px] relative md:top-28 sm:top-6",
+  },
+  {
+    id: "hero-3",
+    title: "DELIGHTFUL",
+    css: "font-grandslang md:text-[100px] sm:text-[50px] relative md:top-16",
+  },
+  {
+    id: "hero-4",
+    title: "experiences",
+    css: "font-grandslangitalic md:text-[80px] sm:text-[40px] md:bottom-0 sm:bottom-8 relative",
+  },
+  {
+    id: "hero-5",
+    title: "for your",
+    css: "font-grandslangitalic text-[20px] md:mr-48 sm:mr-24 md:bottom-0 sm:bottom-8 relative",
+  },
+  {
+    id: "hero-6",
+    title: "business",
+    css: "font-migrabold md:text-[50px] sm:text-[25px] md:ml-24 sm:ml-20 relative md:bottom-12 sm:bottom-16",
+  },
+];
+
+export const navbar = [
+  {
+    id: "nav-1",
+    title1: "WORKS ",
+    title2: "WORKS ",
+    path: "/works",
+  },
+  {
+    id: "nav-2",
+    title1: "ABOUT ",
+    title2: "ABOUT ",
+    path: "/about",
+  },
+];
 export const links = [
   {
     id: "links-1",
@@ -66,5 +113,46 @@ export const works = [
     h1: "Personal",
     h2: "React.js - Tailwind CSS",
     path: "https://akhmedzhanovm.github.io/personal/",
+  },
+];
+
+export const gallery1 = [
+  {
+    id: "gallery-1",
+    imgUrl: "/images/gallery1.jpg",
+  },
+  {
+    id: "gallery-2",
+    imgUrl: "/images/gallery2.jpg",
+  },
+];
+
+export const gallery2 = [
+  {
+    id: "gallery-3",
+    imgUrl: "/images/gallery3.jpg",
+  },
+  {
+    id: "gallery-4",
+    imgUrl: "/images/gallery4.jpg",
+  },
+  {
+    id: "gallery-5",
+    imgUrl: "/images/gallery5.jpg",
+  },
+];
+
+export const gallery3 = [
+  {
+    id: "gallery-6",
+    imgUrl: "/images/gallery6.jpg",
+  },
+  {
+    id: "gallery-7",
+    imgUrl: "/images/gallery7.jpg",
+  },
+  {
+    id: "gallery-8",
+    imgUrl: "/images/gallery8.jpg",
   },
 ];

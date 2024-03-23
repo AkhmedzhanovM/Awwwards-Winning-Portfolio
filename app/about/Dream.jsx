@@ -35,9 +35,7 @@ const Dream = () => {
       >
         <p>
           I live in the great steppe of Kazakhstan. Spending my days learning,
-          practicing, making mistakes and starting again. I'm the only person
-          from my family who intend to learn something like that to make real
-          projects and help my family with my salary.
+          practicing, making mistakes and starting again.
         </p>
         <p className="mt-4">
           My only reason to do all of it is my family. I knew, that it isn't so

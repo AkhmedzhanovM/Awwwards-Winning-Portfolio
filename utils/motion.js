@@ -35,6 +35,13 @@ export const button = {
   },
 };
 
+export const button2 = {
+  up: {
+    y: "-100px",
+    transition: {duration: 0.2},
+  },
+};
+
 export const scaleAnimation = {
   initial: {
     scale: 0,
