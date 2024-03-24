@@ -20,7 +20,7 @@ const Meet = () => {
     >
       <motion.div style={{ y: parallax }} className="mx-10 mt-60">
         <Image
-          src="/images/me2.jpg"
+          src="/images/me.jpg"
           width={1000}
           height={1000}
           className="w-[280px] h-[300px] rounded-[50px]"
