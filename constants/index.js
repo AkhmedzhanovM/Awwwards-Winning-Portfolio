@@ -156,3 +156,65 @@ export const gallery3 = [
     imgUrl: "/images/gallery8.jpg",
   },
 ];
+
+export const soft = [
+  {
+    id: "soft-1",
+    title: "English",
+  },
+  {
+    id: "soft-2",
+    title: "Passion for Problems",
+  },
+  {
+    id: "soft-3",
+    title: "Empathy",
+  },
+  {
+    id: "soft-4",
+    title: "Adaptability",
+  },
+  {
+    id: "soft-5",
+    title: "Team Working",
+  },
+  {
+    id: "soft-6",
+    title: "Collaboration",
+  },
+  {
+    id: "soft-7",
+    title: "Communication",
+  },
+];
+
+export const hard = [
+  {
+    id: "hard-1",
+    title: "React.js",
+  },
+  {
+    id: "hard-2",
+    title: "Next.js",
+  },
+  {
+    id: "hard-3",
+    title: "TailwindCSS",
+  },
+  {
+    id: "hard-4",
+    title: "JavaScript",
+  },
+  {
+    id: "hard-5",
+    title: "HTML",
+  },
+  {
+    id: "hard-6",
+    title: "CSS",
+  },
+  {
+    id: "hard-7",
+    title: "Framer Motion",
+  },
+];

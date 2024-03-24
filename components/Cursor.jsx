@@ -7,7 +7,7 @@ const Cursor = () => {
 
   useEffect (() => {
     const cursor = document.getElementById("custom-cursor")
-    const links = document.querySelectorAll("h1, h2, p")
+    const links = document.querySelectorAll("h1, h2")
     const cursorText = document.querySelector(".cursor-text")
 
     const onMouseMove = (event) => {

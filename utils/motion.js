@@ -73,3 +73,15 @@ export const textUp = {
     transition: { duration: 0.5, ease: [0.32, 0, 0.67, 0] },
   },
 };
+
+export const scale = {
+  initial: {
+    scale: 0,
+    opacity: 0,
+  },
+  enter: {
+    scale: 1,
+    opacity: 1,
+    transition: {duration: 0.5},
+  },
+};

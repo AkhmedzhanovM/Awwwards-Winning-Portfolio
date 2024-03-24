@@ -17,7 +17,7 @@ const CTA = () => {
   return (
     <div
       ref={container}
-      className="md:h-[100vh] sm:h-[100vh] w-[100vw] flex flex-col justify-center items-center md:leading-[140px] sm:leading-[70px]"
+      className="h-[100vh] w-[100vw] flex flex-col justify-center items-center md:leading-[140px] sm:leading-[70px]"
     >
       <div className="flex items-center">
         <motion.h2

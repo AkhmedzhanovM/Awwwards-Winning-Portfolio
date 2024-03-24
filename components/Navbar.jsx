@@ -47,13 +47,13 @@ const Navbar = () => {
             className="my-10 border-[1.5px] border-[#e9dfce] rounded-full w-[400px] h-[100px] flex flex-col overflow-hidden"
           >
             <motion.div variants={button2} whileHover="up" className="h-full">
-              <p className="text-[#242527] font-grandslangitalic w-full h-full flex justify-center items-center text-[100px]">{navbar.title1}</p>
-              <p className="text-[#242527] font-grandslang w-full h-full flex justify-center items-center text-[100px]">{navbar.title1}</p>
+              <p className="text-[#242527] font-grandslangitalic w-full h-full flex justify-center items-center md:text-[100px] sm:text-[50px]">{navbar.title1}</p>
+              <p className="text-[#242527] font-grandslang w-full h-full flex justify-center items-center md:text-[100px] sm:text-[50px]">{navbar.title1}</p>
             </motion.div>
           </a>
         ))}
 
-        <div className="flex flex-row justify-center mt-[500px] absolute">
+        <div className="flex flex-row justify-center top-[90%] absolute">
           {links.map((links) => (
             <Magnetic>
               <a

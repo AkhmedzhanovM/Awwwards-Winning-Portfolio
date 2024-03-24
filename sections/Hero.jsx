@@ -1,8 +1,6 @@
 "use client";
 
 import { hero } from "@/constants";
-import { motion } from "framer-motion";
-import { up } from "@/utils/motion";
 
 const Hero = () => {
   return (
